@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+header, main {
+  width: 1000px;
+  margin-left: calc(50% - 500px);
+  background-color: aqua;
+}
+header {
+  margin-top: 20px;
+}
+main {
+  margin-top: 40px;
+}
