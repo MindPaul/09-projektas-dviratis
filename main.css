@@ -3,15 +3,15 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header, main {
-  width: 1200px;
-  margin-left: calc(50% - 600px);
+  width: 1400px;
+  margin-left: calc(50% - 700px);
 
 }
 header {
   display: inline-block;
   margin-top: 20px;
 }
-img {
+header > img {
   float: left;
   object-position: left;
   object-fit: contain;
@@ -23,7 +23,7 @@ nav {
   float: right;
 }
 
-a {
+nav > a {
   position: relative;
   font-size: 20px;
   margin-left: 4em;
@@ -31,10 +31,10 @@ a {
   text-decoration: none;
   padding: 0 10px;
 }
-a:first-child {
+nav > a:first-child {
   margin-left: 0;
 }
-a:after {
+nav > a:after {
   content: "";
   position: absolute;
   background: linear-gradient(15deg, #8300e4, #8300e4, #ee00ef, transparent);
@@ -44,15 +44,49 @@ a:after {
   bottom: -5px;
   transition: 0.3s;
 }
-a:hover{
+nav > a:hover{
   color: black;
 }
-a:hover:after {
+nav > a:hover:after {
   width: 100%;
 }
 
 
 main {
-
   margin-top: 40px;
+}
+
+main > img {
+  width: 60%;
+  float: left;
+}
+
+div {
+  width: 40%;
+  float: right;
+}
+
+div > h1 {
+  margin-top: 25%;
+  margin-bottom: 0;
+  font-size: 50px;
+  
+
+}
+
+div > p {
+  margin-bottom: 2.5em;
+
+}
+div > a {
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  border-radius: 1.6em;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: 100;
+  color:white;
+  background-color: #8a47e8;
+  text-decoration: none;
 }
