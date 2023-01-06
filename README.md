@@ -9,7 +9,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/MindPaul/09-projektas-dviratis
+Site published at: https://mindpaul.github.io/09-projektas-dviratis/
 
 Design: [Dviratis](https://cdn.dribbble.com/users/1556322/screenshots/4026998/media/8341c9a4fa3e619d910ac09dca1108fe.png)
 
